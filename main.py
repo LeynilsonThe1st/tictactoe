@@ -9,7 +9,7 @@ def main() -> None:
     while True:
         jogo.iniciar()
 
-        if input("\n\tJogoar de novo? [s - sim, outra - nao]: ").lower() != 's':
+        if input("\n\tJogar de novo? [s - sim, outra - nao]: ").lower() != 's':
             break
 
     jogo.imprimir_pontuacao()
