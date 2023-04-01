@@ -14,7 +14,6 @@ from typing import List, Tuple
 
 
 class Tabuleiro:
-    VAZIO = ' '
     __tab: List[List[str]]
 
     def iniciar_tabuleiro(self) -> None:
